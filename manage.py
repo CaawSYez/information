@@ -28,7 +28,7 @@ manager.add_command("db",MigrateCommand)  # 给命令行添加迁移命令,db为
 @app.route("/")
 def demo1():
     session["name"]="liyang"
-    return "hahha11"
+    return "hahha111"
 
 
 if __name__ == '__main__':
